@@ -2,7 +2,7 @@ SELECT
   name, gender,
   SUM(number) AS total
 FROM
-  `bigquery-public-data.usa_names.usa_1910_2013`
+  'bigquery-public-data.usa_names.usa_1910_2013'
 GROUP BY
   name, gender
 ORDER BY
